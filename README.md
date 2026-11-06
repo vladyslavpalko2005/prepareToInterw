@@ -7,6 +7,8 @@ A 12-week evidence-based preparation plan, **2026-11-06 → 2027-01-31**, target
 - [TASKS.md](TASKS.md): tasks with stable IDs, requirements and acceptance tests.
 - [PROGRESS.md](PROGRESS.md): actual submissions, scores, gaps and next task.
 - [AI_RULES.md](AI_RULES.md): rules for AI tutor and code reviews.
+- [AGENTS.md](AGENTS.md): **Codex workspace instructions** — mentor mode by default.
+- [CODEX_WORKFLOW.md](CODEX_WORKFLOW.md): daily work process and copy-ready prompts for Codex.
 - [week-01/](week-01/): first-week solutions.
 - [projects/](projects/): three portfolio projects.
 
@@ -19,8 +21,11 @@ A 12-week evidence-based preparation plan, **2026-11-06 → 2027-01-31**, target
 
 **First task:** JS-001 — createCounter(initialValue).
 
-**Prompt for ChatGPT:** "Read AI_RULES.md, TASKS.md and PROGRESS.md in my GitHub repository. Give me only the next open task and its exact acceptance criteria without a solution. If you cannot access the repository, tell me."
+**Prompt for Codex:** "Read AI_RULES.md, TASKS.md and PROGRESS.md in my GitHub repository. Give me only the next open task and its exact acceptance criteria without a solution. If you cannot access the repository, tell me."
 
 Resources: [javascript.info](https://javascript.info/) · [MDN](https://developer.mozilla.org/) · [TypeScript Handbook](https://www.typescriptlang.org/docs/) · [React Learn](https://react.dev/learn).
 
 Completing the plan does not guarantee Middle seniority or hiring.
+## Codex quick start
+
+Open this repository as your Codex workspace. Codex should follow the root `AGENTS.md`. Start with: **“Read AGENTS.md, PROGRESS.md and TASKS.md; give me the next unfinished task without a solution.”** After you submit code, ask for review without automatic edits, and update progress only after evidence-based approval. Full instructions: [CODEX_WORKFLOW.md](CODEX_WORKFLOW.md).
